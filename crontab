@@ -11,3 +11,6 @@
 
 # Arch
 36 */2 * * * cd mirrors/scripts/ && ./arch
+
+# Mx-Linux_Packages
+30 */12 * * * cd mirrors/scripts/ && ./mx-linux_packages

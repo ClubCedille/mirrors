@@ -1,0 +1,3 @@
+#!bin/bash -e
+
+RSYNC_PASSWORD="T1tpw4rstmr" rsync -rtv rsuser@iso.mxrepo.com::workspace /media/mirror/mx-linux/
