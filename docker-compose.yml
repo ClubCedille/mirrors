@@ -1,0 +1,11 @@
+# Fichier docker-compose pour la configuration et le paramétrage
+# de nginx dans le but de fournir les miroirs du club CEDILLE.
+
+web:
+  image: nginx
+  volumes:
+    - ./nginx/mirror.cedille.etsmtl.ca.conf:/etc/nginx/nginx.conf:ro
+    - /media/mirror:/media/mirror/:ro
+  ports:
+    - "80:80"
+  command: /bin/bash -c "exec nginx -g 'daemon off;'"
