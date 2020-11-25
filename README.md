@@ -1,6 +1,6 @@
 # mirrors
-Scripts to clone various mirrors for Cedille
 
+Scripts to clone various mirrors for CEDILLE
 
 # Setup
 
